@@ -1,0 +1,298 @@
+/* BODY */
+
+body {
+  background-color: #f4fafd;
+  margin: 0;
+}
+
+/* HEADER */
+
+header {
+  background-color: white;
+}
+
+.top-bar {
+  color: #666666;
+  background-color: #edeafe;
+  text-align: center;
+  padding: 10px 0px;
+}
+
+.podcherk {
+  text-decoration: underline;
+}
+
+.container {
+  margin: 0 120px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 42px;
+  background-color: white;
+  padding-bottom: 40px;
+}
+
+.md-header {
+  display: none;
+}
+
+.navigation ul {
+  display: flex;
+  color: #666666;
+  width: 376px;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.adena {
+  align-self: center;
+}
+
+/* HERO */
+
+.hero {
+  display: flex;
+}
+
+
+.hero-photo-min {
+    display: none;
+}
+ 
+
+.hero-text-bacground {
+  background: linear-gradient(180deg, #9fcbf4 0%, #ead8fc 100%);
+  width: 740px;
+}
+
+.hero-text {
+  position: relative;
+  top: 200px;
+  left: 128px;
+}
+
+h1 {
+  color: white;
+  font-size: 90px;
+
+  width: 390px;
+  margin: 30px 0;
+}
+
+.night {
+  margin-bottom: 50px;
+}
+
+.hero-text-one {
+  display: flex;
+  align-items: center;
+  color: white;
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+
+.icon {
+  width: 84px;
+  height: 46px;
+  border: 2px solid white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  margin-right: 15px;
+}
+
+/* CONCEPT */
+
+.concept {
+  margin-top: 96px;
+}
+
+h2 {
+  color: #6e95b8;
+}
+
+.concept-content {
+  display: flex;
+  align-items: center;
+  margin-top: 56px;
+}
+
+.concept-content img {
+  border-radius: 200px;
+}
+
+.concept-img-mobi {
+  display: none;
+}
+
+.concept-content-text {
+  width: 350px;
+  margin-left: 128px;
+  color: #666666;
+}
+
+.concept-content-text-bold {
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.concept-content-btn {
+  color: #6e95b8;
+  font-size: 16px;
+  background-color: white;
+  border-radius: 100px;
+  width: 176px;
+  height: 48px;
+  margin-top: 32px;
+  border: none;
+}
+
+/* PRODUCT */
+
+.product {
+  margin-top: 110px;
+}
+
+.product-card {
+  margin-top: 34px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-card-one {
+  width: 520px;
+  height: 860px;
+  color: #666666;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-img-mobi {
+  display: none;
+}
+
+.product-card-one-first-text {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+/* TRIAL */
+
+.trial-cont {
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 180px;
+  height: 520px;
+}
+
+.trial-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #666666;
+
+  padding-top: 96px;
+}
+
+.trial-cont-text-one {
+  font-size: 16px;
+
+  margin-top: 30px;
+}
+
+.trial-cont-text-two {
+  font-size: 24px;
+
+  margin: 8px 0px;
+}
+
+.trial-cont-text-tree {
+  font-size: 50px;
+
+  margin: 8px 0px;
+}
+
+.trial-cont-btn {
+  color: #6e95b8;
+  border: 2px solid #6e95b8;
+}
+
+/* FOOTER */
+
+.footer {
+  margin-top: 150px;
+  height: 366px;
+}
+
+.footer-cont {
+  display: flex;
+
+  justify-content: space-around;
+}
+
+.footer-h3 {
+  color: #666666;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-top: 24px;
+}
+
+.footer-product-text {
+  margin-top: 20px;
+  color: #666666;
+}
+
+.footer-product-text-one {
+  margin-top: 8px;
+  color: #666666;
+}
+
+.footer-about {
+  margin-top: 20px;
+  color: #666666;
+  font-weight: bold;
+}
+
+.final-footer-text {
+  margin-bottom: 20px;
+  color: #666666;
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.icon-social {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  width: 128px;
+}
+
+.lust-cont {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 146px;
+}
+
+.lust-cont-one {
+  display: flex;
+  width: 610px;
+  justify-content: space-between;
+}
+
+.footer-mobi {
+  display: none;
+}
+
+.mobi-navigate {
+  display: none;
+}
